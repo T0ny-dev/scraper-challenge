@@ -1,0 +1,36 @@
+{
+  "name": "scraper-challenge",
+  "version": "1.0.0",
+  "description": "Scraper for jurisprudencia.pj.gob.pe",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "scraper",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^20.0.0",
+    "@types/tough-cookie": "^4.0.5",
+    "jest": "^30.4.2",
+    "jest-cli": "^30.4.2",
+    "ts-jest": "^29.4.11",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "axios-cookiejar-support": "^5.0.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^17.4.2",
+    "https-proxy-agent": "^5.0.1",
+    "socks-proxy-agent": "^5.0.1",
+    "tough-cookie": "^4.1.3"
+  }
+}

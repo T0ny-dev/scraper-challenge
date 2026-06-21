@@ -1,0 +1,7 @@
+node_modules/
+dist/
+data/pdfs/
+data/state.json
+data/todos_los_documentos.json
+
+data/*.html
